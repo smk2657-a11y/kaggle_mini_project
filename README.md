@@ -22,6 +22,23 @@
 - **데이터셋** : [Diabetes Health Indicators Dataset] (https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset/data)
 - **핵심목표** : 설문지를 활용해서 **당뇨병 고위험군을 선별할 수 있는 예측 모델** 구축
 
+## 3. Problem Definition
+- **데이터 특성** : blah
+- **분석 방향**
+    + 통계분석 : 다중회귀, 분산 분석, 로지스틱 회귀
+    + 머신러닝 : 로지스틱 회귀, 결정트리 XGBoost, LightGBM
+
+## 4. Data Preprocessing
+- **클래스 불균형 해소** : blah
+- **범부형 변수 처리**
+    + 순서형 : ordinal encoder 처리
+    + 일반 범주 : One-Hot Encoding 처리
+- **데이터 스케일링** : StandardScaler(표준화)
+
+## 5. 통계분석 핵심 인사이트
+- 혈당이 중요함 : 다른 알려진 요인(나이, bmi)보다 통계적으로 매우 유의미하게 영향이 있음을 확인(via 회귀분석)
+![qqplot](output/qqplot.png)
+
 | 변수명 | 설명 | 값의 의미 |
 | :--- | :--- | :--- |
 | **Diabetes_binary** | 당뇨 여부 (**Target**) | 0: 음성, 1: 당뇨/전단계 |
