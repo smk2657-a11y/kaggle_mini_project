@@ -61,16 +61,17 @@
 ![Q-Q Plot](output/qqplot.png)
 
 ## 6. 모델링 평가지표
-- 최종 모델은 XGBoost로 선정
+- 최종 모델은 LightGBM로 선정
 
-| Model | Accuracy | Recall | F1-Score | AUC-ROC |
-| :--- | :--- | :--- | :--- | :--- |
-| Random Forest | 0.85 | 0.70 | 0.74 | 0.88 |
-| **XGBoost** | **0.86** | **0.75** | **0.78** | **0.91** |
+| Model | Best_CV_AUC | Val_AUC |
+| :--- | :--- |
+| Logistic Regression | 0.693716 | 0.694032 |
+| Decision Tree | 0.690813 | 0.691707 |
+| XGBoost | 0.723869 | 0.723988 |
+| LightGBM | 0.725150 | 0.725511 |
+| **LightGBM (Reduced)** | **0.725150** | **0.725511** | **0.78** | **0.91** |
 
-> **Note** : 최종 대회 결과는 Public 0.70807 / Private 0.70807 (feat. 1등 점수). 
-
-> **Note** : 최종 대회 결과는 Public 0.70807 / Private 0.70807 (상위 10%). 
+> **Note** : 최종 대회 결과는 Public 0.725511 / Private 0.725511 
 
 ## 7. Feature Importance (옵션)
 - SHAP 활용
