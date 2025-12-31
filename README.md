@@ -75,9 +75,10 @@
 ## 7. Feature Importance (옵션)
 - SHAP 활용
 - 예측 모델에서 영향력이 가장 컸던 지표 순위
-1. AGE
-2. BMI
-- 그림 추가
+1. 주당 운동시간
+2. 중성지방
+3. 나이
+![상위변수](output/상위변수.png)
 
 ## 8. Conclusion
 - 결론1
