@@ -16,3 +16,7 @@
   <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/xgboost-238A8D?style=for-the-badge&logo=xgboost&logoColor=white">
 </div>
+
+## 1. Project Overview
+- **주제
+- **데이터셋** : [Diabetes Health Indicators Dataset] (https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset/data)
