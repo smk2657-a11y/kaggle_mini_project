@@ -44,13 +44,13 @@
 | Income | 소득 수준 | 1(최저) ~ 8(최고) |
 
 ## 3. Problem Definition
-- **데이터 특성** : blah
+- **데이터 특성** : 높은 다중공선성(Multicollinearity) 및 클래스 불균형(Class Imbalance) 존재
 - **분석 방향**
     + 통계분석 : 다중회귀, 분산분석, 로지스틱회귀
     + 머신러닝 : 로지스틱회귀, 결정트리, XGBoost, LightGBM 
 
 ## 4. Data Preprocessing
-- **클래스 불균형 해소** : blah
+- **클래스 불균형 해소** : Stratified Sampling(계층적 샘플링)을 활용한 학습/테스트 셋 비율 유지
 - **범주형 변수 처리**
     + 순서형 : ordinal encoder 처리 (A, B, C)
     + 일반 범주 : One-Hot Encoding 처리
